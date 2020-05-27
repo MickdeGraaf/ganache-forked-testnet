@@ -1,0 +1,16 @@
+{
+  "name": "ganache-forked-testnet",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/MickdeGraaf/ganache-forked-testnet.git",
+  "author": "Mick de Graaf <mick@mickdegraaf.nl>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "clean": "rm -rf ./db"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ganache-core": "^2.10.2"
+  }
+}
